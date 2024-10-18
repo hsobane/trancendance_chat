@@ -1,0 +1,21 @@
+body{
+  background:linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),  url('./background.svg') no-repeat center center;
+  background-size: cover;
+
+}
+
+.EntirePage {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  overflow: hidden; /* Hide overflow if necessary */
+}
+
+/* Main content styles */
+.MainContent {
+  flex-grow: 1; /* Take up remaining space */
+  /* background-color: red; */
+  /* padding: 20px; */
+  /* overflow: auto; */
+}
+
